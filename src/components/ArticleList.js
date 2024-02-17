@@ -10,6 +10,7 @@ function ArticleList({ articles }) {
           title={article.title}
           date={article.date}
           preview={article.preview}
+          minutes={article.minutes}
         />
       ))}
     </main>
